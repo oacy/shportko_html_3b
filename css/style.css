@@ -1,0 +1,40 @@
+body {
+    background: url(../img/background.jpg) 100% 100% no-repeat;
+    background-position: top;
+}
+.google_head{
+    text-align: center;
+}
+.countries{
+    height: 500px;
+    width: 850px;
+    margin: 0 auto;
+}
+.border{
+    border: 4px double #6d6d6d;
+    background: #8a8a8a;
+}
+.border:hover{
+    border: 4px double #d9b41e;
+    background: white;
+}
+
+.india, .nepal, .tibet, .bhutan, .sri-lanka, .maldives{
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 30px 5px;
+}
+
+p{
+    font-family: Tahoma;
+    font-size: 15.25px;
+    color: #e6e6e6;
+}
+.copiright{
+    margin-top: 150px;
+    font-family: Tahoma;
+    font-size: 10.16px;
+    color: #e6e6e6;
+    text-align: center;
+}
