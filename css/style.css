@@ -1,8 +1,11 @@
 body {
-    background: url(../img/background.jpg) 100% 100% no-repeat;
-    background-position: top;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.google_head{
+.head{
     text-align: center;
 }
 .countries{
